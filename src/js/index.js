@@ -34,7 +34,7 @@ const store = createStore(
 )
 
 const browserHistory = useRouterHistory(useBasename(createHistory))({
-  basename: "https://terriblegoodday.github.io/mathgen-alpha"
+  basename: '/mathgen-alpha'
 });
 
 const history = syncHistoryWithStore(browserHistory, store)
