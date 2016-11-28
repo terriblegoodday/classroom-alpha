@@ -17,7 +17,7 @@ import createLogger from 'redux-logger'
 import TasksContainer from './components/taskscontainer'
 import StatsContainer from './components/statscontainer'
 import {reducer as formReducer} from 'redux-form'
-import { createHistory, useBasename } from 'history'
+import { createMemoryHistory, useBasename } from 'history'
 
 const logger = createLogger()
 
@@ -33,8 +33,7 @@ const store = createStore(
     )
 )
 
-const browserHistory = useRouterHistory(useBasename(createHistory))({
-  basename: '/mathgen-alpha'
+const browserHistory = useRouterHistory(useBasename(createMemoryHistory))({
 });
 
 const history = syncHistoryWithStore(browserHistory, store)
