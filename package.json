@@ -1,0 +1,42 @@
+{
+  "name": "mgfredux",
+  "version": "0.0.1",
+  "description": "Front-End for MathGen written on React-Redux",
+  "main": "pub/index.js",
+  "scripts": {
+    "test": "flow check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "mathgen"
+  ],
+  "sourceType": "module",
+  "author": "terriblegoodday",
+  "license": "ISC",
+  "dependencies": {
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "belle": "^2.0.7",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.6.0",
+    "react-router-redux": "^4.0.5",
+    "react-tap-event-plugin": "^1.0.0",
+    "redux": "^3.5.2",
+    "redux-logger": "^2.6.1",
+    "underscore": "^1.8.3"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.2"
+  }
+}
