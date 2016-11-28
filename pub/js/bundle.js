@@ -50735,7 +50735,7 @@ var store = (0, _redux.createStore)((0, _redux.combineReducers)(_extends({}, _re
 }));
 
 var browserHistory = (0, _reactRouter.useRouterHistory)((0, _history.useBasename)(_history.createHistory))({
-    basename: "mathgen-alpha"
+    basename: "mathgen-alpha/"
 });
 
 var history = (0, _reactRouterRedux.syncHistoryWithStore)(browserHistory, store);
