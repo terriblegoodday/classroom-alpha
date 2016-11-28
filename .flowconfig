@@ -1,0 +1,12 @@
+[ignore]
+.*/node_modules/fbjs/.*
+.*/node_modules/config-chain/test/broken.json
+.*/node_modules/npmconf/test/.*
+
+[include]
+
+[libs]
+
+[options]
+suppress_comment= \\(.\\|\n\\)*\\$FlowFixMe
+suppress_comment= \\(.\\|\n\\)*\\$FlowIssue

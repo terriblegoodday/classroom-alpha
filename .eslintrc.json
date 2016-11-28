@@ -1,0 +1,21 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+      "ecmaVersion": 6,
+      "ecmaFeatures": {
+          "jsx": true,
+          "experimentalObjectRestSpread": true,
+          "blockBindings": true
+      },
+      "sourceType": "module",
+      "plugins": [
+        "react",
+        "flowtype"
+      ]
+  },
+  "env": {
+      "browser": true,
+      "node": true,
+      "es6": true
+  } 
+}
