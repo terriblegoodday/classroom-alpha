@@ -34,7 +34,6 @@ const store = createStore(
 )
 
 const browserHistory = useRouterHistory(useBasename(createHistory))({
-  basename: "/mathgen-alpha"
 });
 
 const history = syncHistoryWithStore(browserHistory, store)
