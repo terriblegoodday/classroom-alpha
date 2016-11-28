@@ -17,7 +17,7 @@ import createLogger from 'redux-logger'
 import TasksContainer from './components/taskscontainer'
 import StatsContainer from './components/statscontainer'
 import {reducer as formReducer} from 'redux-form'
-import { createMemoryHistory, useBasename } from 'history'
+import { createHashHistory, useBasename } from 'history'
 
 const logger = createLogger()
 
@@ -33,7 +33,7 @@ const store = createStore(
     )
 )
 
-const browserHistory = useRouterHistory(useBasename(createMemoryHistory))({
+const browserHistory = useRouterHistory(useBasename(createHashHistory))({
 });
 
 const history = syncHistoryWithStore(browserHistory, store)
