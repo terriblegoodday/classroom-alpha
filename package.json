@@ -29,7 +29,8 @@
     "react-tap-event-plugin": "^1.0.0",
     "redux": "^3.5.2",
     "redux-logger": "^2.6.1",
-    "underscore": "^1.8.3"
+    "underscore": "^1.8.3",
+    "whatwg-fetch": "^2.0.1"
   },
   "browserify": {
     "transform": [
