@@ -50937,7 +50937,7 @@ exports.default = reducers;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-var BACKEND_URL = exports.BACKEND_URL = 'http://localhost:8000';
+var BACKEND_URL = exports.BACKEND_URL = 'https://mathgen-alpha-backend.herokuapp.com';
 
 },{}],683:[function(require,module,exports){
 // shim for using process in browser
