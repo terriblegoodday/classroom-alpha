@@ -5,7 +5,7 @@ import TasksAreaContainer from './tasksareacontainer'
 const AboutPageContent = (<div>
         <h2 style={
             {
-                color: 'yellow'
+                color: '#3bac49'
             }
         }>А что мне собственно делать на этом сайте?</h2>
         <p>Нажмите на вкладку <Link to='tasks'>"Задания"</Link>, затем выберите типы заданий, с которыми хотите поработать, нажмите на кнопку "составить тест".</p>
