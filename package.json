@@ -23,6 +23,7 @@
     "belle": "^2.0.7",
     "react": "^15.2.1",
     "react-dom": "^15.2.1",
+    "react-latex": "0.0.8",
     "react-redux": "^4.4.5",
     "react-router": "^2.6.0",
     "react-router-redux": "^4.0.5",

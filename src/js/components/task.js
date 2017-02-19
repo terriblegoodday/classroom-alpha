@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card, TextInput } from 'belle'
 import AnswerStatus from './answerstatus'
+import Latex from 'react-latex'
 
 const cardFStyle = {
     backgroundColor: '#FFF2F2'
@@ -32,7 +33,7 @@ export default class Task extends React.Component {
                 }} >
                 {this.props.decision != null ? <AnswerStatus decision={this.props.decision} /> : null }
                 <h3>{`Задание №${this.props.pk}`}</h3>
-                <p dangerouslySetInnerHTML={{__html: this.props.task}} />
+                <Latex>{ this.props.task }</Latex>
                 {this.mapFieldsToComponent(this.props.fields, this.props.placeholders)}
             </Card>
         )
