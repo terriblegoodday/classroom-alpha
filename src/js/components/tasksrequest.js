@@ -2,6 +2,15 @@ import React from 'react'
 import { TextInput, Button, Placeholder, Select, Option } from 'belle'
 import AdaptedTextInput from './adaptedtextinput'
 
+// (для меню)
+// |_____________________^|
+// |Квадратные уравнения__|
+// |Линейные уравнения____|
+// (чтобы не заезжало за верхнюю границу браузера)
+function positionOptions (selectComponent) {
+  const menuNode = ReactDOM.findDOMNode(selectComponent.refs.menu);
+}
+
 class TasksRequest extends React.Component {
     render() {
         console.log(this.props)
@@ -12,7 +21,10 @@ class TasksRequest extends React.Component {
                             <Select
                                 value='quadequationgenerator'
                                 disabled={this.props.state == 'loading' || this.props.state == 'nothing'}
-                                {...gen_id} >
+                                {...gen_id}
+                                menuStyle={{ maxHeight: '500px',
+                                    overflow: 'scroll' }}
+                                    positionOptions = {positionOptions} >
                                 {this.props.generators}
                                 {this.props.state == 'loading' || this.props.state == 'nothing' ? 
                                     <Option value='quadequationgenerator'>

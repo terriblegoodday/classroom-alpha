@@ -60233,7 +60233,7 @@ function _inherits(subClass, superClass) {
 
 var AboutPageContent = _react2.default.createElement('div', null, _react2.default.createElement('h2', { style: {
         color: '#00BCD4'
-    } }, 'А что мне собственно делать на этом сайте?'), _react2.default.createElement('p', null, 'Нажмите на вкладку ', _react2.default.createElement(_reactRouter.Link, { to: 'tasks' }, '"Задания"'), ', затем выберите типы заданий, с которыми хотите поработать, нажмите на кнопку "составить тест".'), _react2.default.createElement('h2', null, 'Зачем было написано это приложение?'), _react2.default.createElement('p', null, 'Это веб-приложение было написано для Южно-Сахалинской НПК 2016 года. Представляет собой генератор многовариатных тестовых заданий по математике. На данный момент на сайте представлены два генератора заданий:', _react2.default.createElement('ul', null, _react2.default.createElement('li', null, 'Генератор квадратных уравнений'), _react2.default.createElement('li', null, 'Генератор линейных неравенств')), 'Работа над сайтом ведется и по сей день, поэтому некоторые функции все еще могут не работать или работать нестабильно.'), _react2.default.createElement('h2', null, 'Я нажал x, веб-сайт не среагировал на команду.'), _react2.default.createElement('p', null, 'Это происходит из-за того, что сервер сайта работает на бесплатном инстансе ', _react2.default.createElement('a', { href: 'http://heroku.com' }, 'Heroku'), '. Попробуйте осуществить операцию еще раз через 5-10 секунд. Это примерное время, за которое сервер "просыпается"'), _react2.default.createElement('h2', null, 'Какие технологии были использованы при разработке этого веб-приложения?'), _react2.default.createElement('ul', null, _react2.default.createElement('li', null, 'Сервер: Django'), _react2.default.createElement('li', null, 'Клиент: React + Redux')), _react2.default.createElement('h2', null, 'Есть ли будущее у этого проекта?'), _react2.default.createElement('p', null, 'Есть перспективы вырасти в полноценную платформу для онлайн-тестирования с рейтингом пользователей, обучением по определенным системой “слабым” темам. То, что вы видите сейчас – это лишь основание того, что будет в будущем.'));
+    } }, 'А что мне собственно делать на этом сайте?'), _react2.default.createElement('p', null, 'Нажмите на вкладку ', _react2.default.createElement(_reactRouter.Link, { to: 'tasks' }, '"Задания"'), ', затем выберите типы заданий, с которыми хотите поработать, нажмите на кнопку "составить тест".'), _react2.default.createElement('h2', null, 'Зачем было написано это приложение?'), _react2.default.createElement('p', null, 'Это веб-приложение было написано для Южно-Сахалинской НПК 2016 года. Представляет собой генератор многовариатных тестовых заданий по математике. На данный момент на сайте представлены три генератора заданий:', _react2.default.createElement('ul', null, _react2.default.createElement('li', null, 'Генератор квадратных уравнений'), _react2.default.createElement('li', null, 'Генератор линейных неравенств'), _react2.default.createElement('li', null, 'Генератор логарифмических выражений (обновлено 19.02.17)')), 'Работа над сайтом ведется и по сей день, поэтому некоторые функции все еще могут не работать или работать нестабильно.'), _react2.default.createElement('h2', null, 'Я нажал x, веб-сайт не среагировал на команду.'), _react2.default.createElement('p', null, 'Это происходит из-за того, что сервер сайта работает на бесплатном инстансе ', _react2.default.createElement('a', { href: 'http://heroku.com' }, 'Heroku'), '. Попробуйте осуществить операцию еще раз через 5-10 секунд. Это примерное время, за которое сервер "просыпается"'), _react2.default.createElement('h2', null, 'Какие технологии были использованы при разработке этого веб-приложения?'), _react2.default.createElement('ul', null, _react2.default.createElement('li', null, 'Сервер: Django'), _react2.default.createElement('li', null, 'Клиент: React + Redux')), _react2.default.createElement('h2', null, 'Есть ли будущее у этого проекта?'), _react2.default.createElement('p', null, 'Есть перспективы вырасти в полноценную платформу для онлайн-тестирования с рейтингом пользователей, обучением по определенным системой “слабым” темам. То, что вы видите сейчас – это лишь основание того, что будет в будущем.'));
 
 var About = function (_React$Component) {
     _inherits(About, _React$Component);
@@ -60586,7 +60586,7 @@ var Task = function (_React$Component) {
             return _react2.default.createElement(_belle.Card, { className: 'taskCard taskCard-' + this.props.decision,
                 style: _extends({}, this.props.decision != null ? this.props.decision ? cardTStyle : cardFStyle : null, {
                     position: 'relative'
-                }) }, this.props.decision != null ? _react2.default.createElement(_answerstatus2.default, { decision: this.props.decision }) : null, _react2.default.createElement('h3', null, 'Задание №' + this.props.pk), _react2.default.createElement(_reactLatex2.default, null, this.props.task), this.mapFieldsToComponent(this.props.fields, this.props.placeholders));
+                }) }, this.props.decision != null ? _react2.default.createElement(_answerstatus2.default, { decision: this.props.decision }) : null, _react2.default.createElement('h3', null, 'Задание №' + this.props.pk), _react2.default.createElement(_reactLatex2.default, null, this.props.task), _react2.default.createElement('br', null), this.mapFieldsToComponent(this.props.fields, this.props.placeholders));
         }
     }]);
 
@@ -60988,6 +60988,15 @@ function _inherits(subClass, superClass) {
     }subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } });if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
 }
 
+// (для меню)
+// |_____________________^|
+// |Квадратные уравнения__|
+// |Линейные уравнения____|
+// (чтобы не заезжало за верхнюю границу браузера)
+function positionOptions(selectComponent) {
+    var menuNode = ReactDOM.findDOMNode(selectComponent.refs.menu);
+}
+
 var TasksRequest = function (_React$Component) {
     _inherits(TasksRequest, _React$Component);
 
@@ -61008,7 +61017,10 @@ var TasksRequest = function (_React$Component) {
             return _react2.default.createElement('div', { className: 'tasksRequestChild' }, _react2.default.createElement('h3', null, 'Группа заданий №' + (this.props.reactKey + 1)), _react2.default.createElement(_belle.Select, _extends({
                 value: 'quadequationgenerator',
                 disabled: this.props.state == 'loading' || this.props.state == 'nothing'
-            }, gen_id), this.props.generators, this.props.state == 'loading' || this.props.state == 'nothing' ? _react2.default.createElement(_belle.Option, { value: 'quadequationgenerator' }, _react2.default.createElement('h4', null, 'Загрузка доступных генераторов заданий'), _react2.default.createElement('p', null, 'Пожалуйста, подождите')) : ''), _react2.default.createElement(_adaptedtextinput2.default, { placeholder: 'Количество заданий', field: limit }));
+            }, gen_id, {
+                menuStyle: { maxHeight: '500px',
+                    overflow: 'scroll' },
+                positionOptions: positionOptions }), this.props.generators, this.props.state == 'loading' || this.props.state == 'nothing' ? _react2.default.createElement(_belle.Option, { value: 'quadequationgenerator' }, _react2.default.createElement('h4', null, 'Загрузка доступных генераторов заданий'), _react2.default.createElement('p', null, 'Пожалуйста, подождите')) : ''), _react2.default.createElement(_adaptedtextinput2.default, { placeholder: 'Количество заданий', field: limit }));
         }
     }]);
 

@@ -33,7 +33,7 @@ export default class Task extends React.Component {
                 }} >
                 {this.props.decision != null ? <AnswerStatus decision={this.props.decision} /> : null }
                 <h3>{`Задание №${this.props.pk}`}</h3>
-                <Latex>{ this.props.task }</Latex>
+                <Latex>{ this.props.task }</Latex><br />
                 {this.mapFieldsToComponent(this.props.fields, this.props.placeholders)}
             </Card>
         )
