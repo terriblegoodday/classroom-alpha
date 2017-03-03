@@ -35,7 +35,7 @@ class TasksRequestForm extends React.Component {
             display: 'inline-block'
         }
         return (
-            <Card>
+            <Card className={"tasksRequest--donotprint"}>
             <form onSubmit={this.handleSubmit.bind(this)}>
                 <TasksRequests addValue={addArrayValue} fields={this.props.fields}
                     generators={this.props.generators} />

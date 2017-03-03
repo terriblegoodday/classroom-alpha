@@ -61145,7 +61145,7 @@ var TasksRequestForm = function (_React$Component) {
             var groupTasksControlButtonStyle = {
                 display: 'inline-block'
             };
-            return _react2.default.createElement(_belle.Card, null, _react2.default.createElement('form', { onSubmit: this.handleSubmit.bind(this) }, _react2.default.createElement(_tasksrequests2.default, { addValue: _reduxForm.addArrayValue, fields: this.props.fields,
+            return _react2.default.createElement(_belle.Card, { className: "tasksRequest--donotprint" }, _react2.default.createElement('form', { onSubmit: this.handleSubmit.bind(this) }, _react2.default.createElement(_tasksrequests2.default, { addValue: _reduxForm.addArrayValue, fields: this.props.fields,
                 generators: this.props.generators }), _react2.default.createElement('p', { style: { display: 'inline-block', paddingRight: '15px', fontWeight: '600', margin: '11px 0 11px' } }, 'Группы заданий: '), _react2.default.createElement(_belle.Button, _defineProperty({ disabled: this.props.fields.children.length >= 5,
                 style: {
                     marginTop: '15px',
