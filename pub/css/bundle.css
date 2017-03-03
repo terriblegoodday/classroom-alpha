@@ -86,6 +86,6 @@ body {
         page-break-inside: avoid;
     }
     .verify {
-        display: none
+        display: none;
     }
 }
