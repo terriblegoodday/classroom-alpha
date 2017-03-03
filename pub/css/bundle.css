@@ -75,3 +75,14 @@ body {
 .aboutImage {
     width: 100%;
 }
+@media print {
+    .header-menu {
+        display: none;
+    }
+    .tasksRequest--donotprint {
+        display: none;
+    }
+    .taskCard {
+        page-break-inside: avoid;
+    }
+}
