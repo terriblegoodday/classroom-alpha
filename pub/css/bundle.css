@@ -93,6 +93,9 @@ body {
     .verify {
         display: none !important;
     }
+    .taskCard {
+        page-break-inside: avoid;
+    }
     .header-menu {
         display: none;
     }
