@@ -85,4 +85,7 @@ body {
     .taskCard {
         page-break-inside: avoid;
     }
+    .verify {
+        display: none
+    }
 }
