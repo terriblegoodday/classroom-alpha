@@ -1,2 +1,2 @@
-# mathgen-alpha.github.io
-MathGen FrontEnd (областная конференция 2016)
+# terriblegoodday.github.io/mathgen-alpha
+MathGen Frontend (НПК 2017)
