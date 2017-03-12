@@ -61346,9 +61346,9 @@ var VerificationCard = function (_React$Component) {
     _createClass(VerificationCard, [{
         key: 'render',
         value: function render() {
-            return _react2.default.createElement(_belle.Button, { type: 'submit',
+            return _react2.default.createElement('div', null, _react2.default.createElement(_belle.Button, { type: 'submit',
                 disabled: this.props.reviewAnswersState == 'in_progress',
-                className: 'verify' }, this.props.reviewAnswersState == 'in_progress' ? _react2.default.createElement('p', null, 'Проверка ', _react2.default.createElement(_belle.Spinner, null)) : 'Проверить ответы');
+                className: 'verify' }, this.props.reviewAnswersState == 'in_progress' ? _react2.default.createElement('p', null, 'Проверка ', _react2.default.createElement(_belle.Spinner, null)) : 'Проверить ответы'), _react2.default.createElement(_belle.Button, { className: 'printPage', onClick: window.print.bind() }, 'Распечатать тест'));
         }
     }]);
 

@@ -75,6 +75,9 @@ body {
 .aboutImage {
     width: 100%;
 }
+.printPage {
+    margin-left: 10px;
+}
 @media print {
     * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important;
     -ms-filter: none !important; } /* Black prints faster: sanbeiji.com/archives/953 */
@@ -91,6 +94,9 @@ body {
     .hide-on-print { display: none !important; }
     .print-only { display: block !important; }
     .verify {
+        display: none !important;
+    }
+    .printPage {
         display: none !important;
     }
     .taskCard {
