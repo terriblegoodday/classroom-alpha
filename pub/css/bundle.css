@@ -78,6 +78,15 @@ body {
 .printPage {
     margin-left: 10px;
 }
+.timestamp {
+    border-radius: 5px;
+    background: rgba(0,0,0,.25);
+    padding: 0px 2px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(0,0,0,.67);
+    margin-right: 5px;
+}
 @media print {
     * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important;
     -ms-filter: none !important; } /* Black prints faster: sanbeiji.com/archives/953 */
