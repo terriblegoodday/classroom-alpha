@@ -87,6 +87,17 @@ body {
     color: rgba(0,0,0,.67);
     margin-right: 5px;
 }
+.copyright {
+    border-top: 1px solid rgba(0,0,0,.175);
+    padding-top: 10px;
+    margin-top: 25px;
+}
+.emoji {
+    margin-right: 10px;
+}
+a {
+    color: #1590A0;
+}
 @media print {
     * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important;
     -ms-filter: none !important; } /* Black prints faster: sanbeiji.com/archives/953 */
