@@ -81,7 +81,7 @@ body {
 .timestamp {
     border-radius: 5px;
     background: rgba(0,0,0,.25);
-    padding: 0px 2px;
+    padding: 1px 3.5px;
     font-size: 14px;
     font-weight: 600;
     color: rgba(0,0,0,.67);
