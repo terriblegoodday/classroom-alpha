@@ -51,7 +51,7 @@ body {
     background-color: #FFF2F2;
 }
 .taskCard > span {
-    overflow: hidden;
+    overflow: scroll;
     display: block;
 }
 .decision {
