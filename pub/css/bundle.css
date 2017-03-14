@@ -50,6 +50,10 @@ body {
 .taskCard-false {
     background-color: #FFF2F2;
 }
+.taskCard > span {
+    overflow: hidden;
+    display: block;
+}
 .decision {
     position: absolute;
     right: 0;
