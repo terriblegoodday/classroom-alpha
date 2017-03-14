@@ -129,3 +129,14 @@ a {
         display: none;
     }
 }
+
+@media screen and (max-width: 920px) {
+    .header-menu > ul > li {
+        display: inline-block;
+        width: 100%;
+        border-radius: 5px;
+    }
+    .header-menu > ul > li > a {
+        width: 90%;
+    }
+}

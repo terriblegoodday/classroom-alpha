@@ -39,3 +39,5 @@ jspm_packages
 .vscode
 
 .DS_Store
+
+src/.DS_Store
