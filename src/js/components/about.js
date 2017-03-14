@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router'
 import TasksAreaContainer from './tasksareacontainer'
 
-const AboutPageContent = (<div>
+const AboutPageContent = (<div className="about_page">
         <h2 style={
             {
                 color: '#00BCD4'

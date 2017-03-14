@@ -29,7 +29,7 @@ const Stats = (props) => {
                 )
             })
             return (
-                <div>
+                <div className="stats_page">
                     <p className="statsCounter">
                     { generated_tasks }
                     </p>

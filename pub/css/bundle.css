@@ -139,4 +139,8 @@ a {
     .header-menu > ul > li > a {
         width: 90%;
     }
+    .about_page, .stats_page {
+        width: 90%;
+        margin: 0 auto;
+    }
 }
