@@ -147,4 +147,10 @@ a {
         width: 90%;
         margin: 0 auto;
     }
+    .taskCard > h3 {
+        font-size: 14px;
+    }
+    .taskCard > span {
+        font-size: 11px;
+    }
 }

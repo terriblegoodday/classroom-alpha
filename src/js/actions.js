@@ -140,7 +140,11 @@ const tasksRequest = (request) => {
                     let data_merged = {}
                     for (let task of result.value) {
                         console.log("fdjif", task)
-                        data_merged[task.pk] = task
+                        let preparedTask = task
+                        if (typeof(preparedTask["task"]) == "string") {
+                            preparedTask["task"] = [["Latex", preparedTask["task"]]]
+                        }
+                        data_merged[task.pk] = preparedTask
                     }
                     data = {...data, ...data_merged}
                     for (let i in result.value) {
