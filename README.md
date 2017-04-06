@@ -1,2 +1,2 @@
-# terriblegoodday.github.io/mathgen-alpha
+# terriblegoodday.github.io/classroom-alpha
 MathGen Frontend (НПК 2017)
