@@ -84,11 +84,11 @@ body {
 }
 .timestamp {
     border-radius: 5px;
-    background: rgba(0,0,0,.25);
+    background: white;
     padding: 1px 3.5px;
     font-size: 14px;
-    font-weight: 600;
-    color: rgba(0,0,0,.67);
+    font-weight: 500;
+    color: rgba(0,0,0,.635);
     margin-right: 5px;
 }
 .copyright {
@@ -101,6 +101,9 @@ body {
 }
 a {
     color: #1590A0;
+}
+code {
+    border-radius: 6px;
 }
 @media print {
     * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important;

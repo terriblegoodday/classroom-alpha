@@ -26,6 +26,7 @@
     "q": "^1.5.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
+    "react-highlight": "^0.9.0",
     "react-latex": "0.0.8",
     "react-portal": "^3.0.0",
     "react-redux": "^4.4.5",
