@@ -105,6 +105,9 @@ a {
 code {
     border-radius: 6px;
 }
+.print-only {
+    display: none;
+}
 @media print {
     * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important;
     -ms-filter: none !important; } /* Black prints faster: sanbeiji.com/archives/953 */
@@ -133,6 +136,13 @@ code {
         display: none;
     }
     .tasksRequest--donotprint {
+        display: none;
+    }
+    .taskCard {
+        padding: 8px !important;
+        box-shadow: none !important;
+    }
+    .webonly {
         display: none;
     }
 }
