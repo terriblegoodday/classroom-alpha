@@ -77423,7 +77423,7 @@ var AboutPageContent = _react2.default.createElement(
             { href: 'https://github.com/terriblegoodday/classroom-alpha-backend' },
             '\u043A\u043E\u0434 \u0441\u0435\u0440\u0432\u0435\u0440\u043D\u043E\u0439 \u0447\u0430\u0441\u0442\u0438'
         ),
-        '\u0438 ',
+        ' \u0438 ',
         _react2.default.createElement(
             'a',
             { href: 'https://github.com/terriblegoodday/classroom-alpha' },

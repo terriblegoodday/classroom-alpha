@@ -27,8 +27,7 @@ const AboutPageContent = (<div className="about_page">
         <p>Это происходит из-за того, что сервер сайта работает на бесплатном инстансе <a href='http://heroku.com'>Heroku</a>. Попробуйте осуществить операцию еще раз через 5-10 секунд.
         Это примерное время, за которое сервер "просыпается"</p>
         <h2>Как написать свои генераторы для этого проекта (расширить этот проект)?</h2>
-        <p>Вы можете использовать <a href='https://github.com/terriblegoodday/classroom-alpha-backend'>код серверной части</a>
-        и <a href='https://github.com/terriblegoodday/classroom-alpha'>клиентской части</a> как
+        <p>Вы можете использовать <a href='https://github.com/terriblegoodday/classroom-alpha-backend'>код серверной части</a> и <a href='https://github.com/terriblegoodday/classroom-alpha'>клиентской части</a> как
          хотите, в том числе запускать форки моего проекта (только в 
             некоммерческих целях), но
              если вы хотите добавить генератор именно к этом сайту, то шаги для написания собственного генератора
